@@ -1,0 +1,13 @@
+.navbar {
+  background-color: $color__evening;
+
+  .nav-item a,
+  .dropdown a,
+  .navbar-brand {
+    font-family: $font__oswald;
+    font-weight: 600;
+    color: $color__sunflower;
+    letter-spacing: .05em;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,21 @@
+a {
+  text-decoration: none;
+  color: $color__starry;
+  font-family: $font__opensans;
+  letter-spacing: .03em;
+  font-weight: 600;
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+    color: $color__iris;
+    font-weight: 700;
+  }
+
+  &:visited {
+    text-decoration: none;
+    color: $color__powder;
+    font-weight: 700;
+  }
+}

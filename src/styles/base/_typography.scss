@@ -1,0 +1,47 @@
+/* HEADERS */
+h1 {
+  font-family: $font__anton;
+  font-size: 40px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: $font__anton;
+  font-size: 35px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: $font__anton;
+  font-size: 30px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: $font__anton;
+  font-size: 25px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: $font__anton;
+  font-size: 20px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+/* LISTS */
+ul {
+  list-style-type: none;
+  line-height: 1.4em;
+}
+
+/* PARAGRAPH TEXT */
+p {
+  line-height: 1.6em;
+  letter-spacing: .04em;
+}

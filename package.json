@@ -32,13 +32,19 @@
   "license": "MIT",
   "dependencies": {
     "@hot-loader/react-dom": "16.8.6",
+    "bootstrap": "4.3.1",
     "connected-react-router": "6.4.0",
+    "moment": "2.24.0",
+    "normalize.css": "8.0.1",
     "object-assign": "4.1.1",
     "react": "16.8.6",
+    "react-big-calendar": "0.21.0",
     "react-dom": "16.8.6",
     "react-redux": "7.0.3",
     "react-router-dom": "5.0.0",
+    "reactstrap": "8.0.0",
     "redux": "4.0.1",
+    "redux-form": "8.2.0",
     "redux-thunk": "2.3.0"
   },
   "devDependencies": {
