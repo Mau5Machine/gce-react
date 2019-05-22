@@ -3,7 +3,7 @@ import {
   Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle
 } from 'reactstrap';
-import christianPic from '../christian_pool.jpg';
+import christianPic from '../assets/images/christian_pool.jpg';
 
 const WelcomeCard = () => {
   return (
