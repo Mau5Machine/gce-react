@@ -9,7 +9,7 @@ import 'react-big-calendar/lib/css/react-big-calendar.css';
 let allViews = Object.keys(BigCalendar.Views).map(k => BigCalendar.Views[k])
 const localizer = BigCalendar.momentLocalizer(moment)
 
-const CalendarPage = props => (
+const CalendarPage = () => (
   <Container
     className="mt-5"
   >
