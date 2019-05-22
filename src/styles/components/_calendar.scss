@@ -1,1 +1,16 @@
+.rbc-calendar {
+  background: white;
+  border: 2px solid rgb(88, 88, 88);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.513);
+}
 
+.rbc-toolbar-label {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.rbc-off-range-bg {
+  background-color: #f7f7f7;
+}

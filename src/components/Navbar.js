@@ -2,6 +2,7 @@ import React from 'react';
 import AboutPage from "./AboutPage";
 import HomePage from "./HomePage";
 import NotFoundPage from "./NotFoundPage";
+import CalendarPage from './Calendar';
 import { Route, Switch, Link } from "react-router-dom";
 
 import {
@@ -45,6 +46,9 @@ export default class NavbarTop extends React.Component {
               <NavItem>
                 <Link className="nav-link" to="/about">About</Link>
               </NavItem>
+              <NavItem>
+                <Link className="nav-link" to="/calendar">Calendar</Link>
+              </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   User
@@ -68,6 +72,7 @@ export default class NavbarTop extends React.Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/about" component={AboutPage} />
+          <Route path="/calendar" component={CalendarPage} />
           <Route component={NotFoundPage} />
         </Switch>
       </div>
